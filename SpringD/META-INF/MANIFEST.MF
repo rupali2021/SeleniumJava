@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SpringD
+Bundle-SymbolicName: SpringD
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Automatic-Module-Name: SpringD
+Export-Package: SpringD,
+ features

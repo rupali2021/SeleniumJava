@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="144.058" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yuvensharma/eclipse-workspace/SpringD/target/test-classes:/Users/yuvensharma/eclipse-workspace/SpringD/target/classes:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/yuvensharma/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/yuvensharma/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yuvensharma/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/yuvensharma/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/yuvensharma/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/yuvensharma/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/yuvensharma/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/yuvensharma/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/yuvensharma/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/yuvensharma/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/yuvensharma/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/yuvensharma/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yuvensharma/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yuvensharma/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yuvensharma/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yuvensharma/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/yuvensharma/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/yuvensharma/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/yuvensharma/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yuvensharma/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yuvensharma/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/yuvensharma/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/yuvensharma/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/yuvensharma/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-spring/6.10.0/cucumber-spring-6.10.0.jar:/Users/yuvensharma/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/yuvensharma/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yuvensharma/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yuvensharma/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yuvensharma/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yuvensharma/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yuvensharma/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yuvensharma/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yuvensharma/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yuvensharma/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar:/Users/yuvensharma/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/yuvensharma/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yuvensharma/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/yuvensharma/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SG"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yuvensharma/eclipse-workspace/SpringD/target/surefire/surefirebooter16304740559718096695.jar /Users/yuvensharma/eclipse-workspace/SpringD/target/surefire 2021-03-01T00-58-16_478-jvmRun1 surefire4259917756313089244tmp surefire_011900982953161213724tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yuvensharma/eclipse-workspace/SpringD/target/test-classes:/Users/yuvensharma/eclipse-workspace/SpringD/target/classes:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/yuvensharma/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/yuvensharma/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/yuvensharma/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yuvensharma/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/yuvensharma/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/yuvensharma/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/yuvensharma/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/yuvensharma/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/yuvensharma/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/yuvensharma/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/yuvensharma/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/yuvensharma/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/yuvensharma/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yuvensharma/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yuvensharma/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/yuvensharma/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/yuvensharma/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/yuvensharma/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/yuvensharma/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/yuvensharma/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/yuvensharma/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/yuvensharma/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/yuvensharma/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/yuvensharma/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/yuvensharma/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/yuvensharma/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-spring/6.10.0/cucumber-spring-6.10.0.jar:/Users/yuvensharma/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/yuvensharma/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/yuvensharma/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/yuvensharma/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/yuvensharma/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/yuvensharma/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/yuvensharma/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/yuvensharma/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/yuvensharma/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/yuvensharma/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/yuvensharma/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/yuvensharma/.m2/repository/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar:/Users/yuvensharma/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/yuvensharma/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/yuvensharma/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/yuvensharma/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yuvensharma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/yuvensharma/eclipse-workspace/SpringD"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/yuvensharma/eclipse-workspace/SpringD/target/surefire/surefirebooter16304740559718096695.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="yuvensharma"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/yuvensharma/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wb/mc34wf2n5t5cp4rdblyxbwxc0000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/yuvensharma/eclipse-workspace/SpringD"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/yuvensharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="feature" classname="cucumberOptions.TestRunner" time="138.215">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;LPMcloseButton&apos;]&quot;}&#10;  (Session info: chrome=88.0.4324.192)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Yuvens-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1c4a:d437:f462:b808%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/wb/mc34wf2n5t5...}, goog:chromeOptions: {debuggerAddress: localhost:57339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 38ba7932891c29fb049a686e6a428488&#10;*** Element info: {Using=xpath, value=//img[@class=&apos;LPMcloseButton&apos;]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='LPMcloseButton']"}
+  (Session info: chrome=88.0.4324.192)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yuvens-MacBook-Air.local', ip: 'fe80:0:0:0:1c4a:d437:f462:b808%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/wb/mc34wf2n5t5...}, goog:chromeOptions: {debuggerAddress: localhost:57339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38ba7932891c29fb049a686e6a428488
+*** Element info: {Using=xpath, value=//img[@class='LPMcloseButton']}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='LPMcloseButton']"}
+  (Session info: chrome=88.0.4324.192)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yuvens-MacBook-Air.local', ip: 'fe80:0:0:0:1c4a:d437:f462:b808%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/wb/mc34wf2n5t5...}, goog:chromeOptions: {debuggerAddress: localhost:57339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38ba7932891c29fb049a686e6a428488
+*** Element info: {Using=xpath, value=//img[@class='LPMcloseButton']}
+</failure>
+    <system-out><![CDATA[Feature: Verify user is able to retrieve accessories after applying filters on Accessories page
+fisjava.io.FileInputStream@4fbda97b
+browser chrome
+Usera is at eshop Home page
+
+  Scenario: Retrieval of accessories                              &amp#27;[90m# eShop.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUsera is at eshop Home page&amp#27;[0m                             &amp#27;[90m# TC01.usera_is_at_eshop_Home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser looks for accessories in products & services menu&amp#27;[0m   &amp#27;[90m# TC01.user_looks_for_accessories_in_products_services_menu()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='LPMcloseButton']"}
+        (Session info: chrome=88.0.4324.192)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'Yuvens-MacBook-Air.local', ip: 'fe80:0:0:0:1c4a:d437:f462:b808%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/wb/mc34wf2n5t5...}, goog:chromeOptions: {debuggerAddress: localhost:57339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: 38ba7932891c29fb049a686e6a428488
+      *** Element info: {Using=xpath, value=//img[@class='LPMcloseButton']}
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at pageObjectFiles.CloseFrame.closePopup(CloseFrame.java:17)
+      	at stepDefinitions.TC01.user_looks_for_accessories_in_products_services_menu(TC01.java:45)
+      	at ✽.When User looks for accessories in products & services menu(eShop.feature:7)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser filters accessories by filter By, Brands and Sort By&amp#27;[0m &amp#27;[90m# TC01.user_filters_accessories_by_filter_By_Brands_and_Sort_By()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser is displayed with minimum three Accessorries&amp#27;[0m        &amp#27;[90m# TC01.user_is_displayed_with_minimum_three_Accessorries()&amp#27;[0m
+fisjava.io.FileInputStream@186cb891
+browser chrome
+1
+2
+
+  Scenario: User can add Broadband plan in shopping cart and do checkout       &amp#27;[90m# eShop.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUserb is at eshop Home page&amp#27;[0m                                          &amp#27;[90m# TC02.userb_is_at_eshop_Home_page()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser looks for Broadband plan in Boardband menu&amp#27;[0m                       &amp#27;[90m# TC02.user_looks_for_Broadband_plan_in_Boardband_menu()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mSelects &amp#27;[0m&amp#27;[31m&amp#27;[1m1&amp#27;[0m&amp#27;[31m Gbps fibre plan&amp#27;[0m                                              &amp#27;[90m# TC02.selects_Gbps_fibre_plan(int)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='section-header title'][text()='I want a new Fibre Broadband plan']"}
+        (Session info: chrome=88.0.4324.192)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'Yuvens-MacBook-Air.local', ip: 'fe80:0:0:0:1c4a:d437:f462:b808%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/wb/mc34wf2n5t5...}, goog:chromeOptions: {debuggerAddress: localhost:57410}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: cb9686e36e10df4401d008694cff4056
+      *** Element info: {Using=xpath, value=//div[@class='section-header title'][text()='I want a new Fibre Broadband plan']}
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at pageObjectFiles.NewPlanOrCustomer.getNewFibreBand(NewPlanOrCustomer.java:17)
+      	at stepDefinitions.TC02.selects_Gbps_fibre_plan(TC02.java:61)
+      	at ✽.And Selects 1 Gbps fibre plan(eShop.feature:16)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mEnters postal code, floor No and unit No for New fibre Broadband Plan&amp#27;[0m &amp#27;[90m# TC02.enters_postal_code_floor_No_and_unit_No_for_New_fibre_Broadband_Plan()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mCheck fibre availbility for new plan&amp#27;[0m                                   &amp#27;[90m# TC02.check_fibre_availbility_for_new_plan()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters new number for fibre plan&amp#27;[0m                                       &amp#27;[90m# TC02.enters_new_number_for_fibre_plan()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is displayed with plan details and Total in shopping card&amp#27;[0m        &amp#27;[90m# TC02.user_is_displayed_with_plan_details_and_Total_in_shopping_card()&amp#27;[0m
+fisjava.io.FileInputStream@3e17a0a1
+browser chrome
+8
+9
+
+  Scenario: User can add TV plan in shopping cart and  do checkout          &amp#27;[90m# eShop.feature:25&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUserc is at eshop Home page&amp#27;[0m                                       &amp#27;[90m# TC03.userc_is_at_eshop_Home_page()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser looks for packs in TV menu&amp#27;[0m                                    &amp#27;[90m# TC03.user_looks_for_packs_in_TV_menu()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mSelect new packs&amp#27;[0m                                                    &amp#27;[90m# TC03.select_new_packs()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="_content_singtel_en_personal_products-services_tv_packs_starter_jcr_content_par_sd_component_pagesec_contentDiv"]/div/div/div/div[3]/div/div/div/div/div[2]/div/div[1]/div/div[4]/div/div/button"}
+        (Session info: chrome=88.0.4324.192)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'Yuvens-MacBook-Air.local', ip: 'fe80:0:0:0:1c4a:d437:f462:b808%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/wb/mc34wf2n5t5...}, goog:chromeOptions: {debuggerAddress: localhost:57506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: d374c2a3f73f4303d1ba0aaff1e3a402
+      *** Element info: {Using=xpath, value=//*[@id="_content_singtel_en_personal_products-services_tv_packs_starter_jcr_content_par_sd_component_pagesec_contentDiv"]/div/div/div/div[3]/div/div/div/div/div[2]/div/div[1]/div/div[4]/div/div/button}
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at pageObjectFiles.ChoosePack.getSelectPacks(ChoosePack.java:22)
+      	at stepDefinitions.TC03.select_new_packs(TC03.java:53)
+      	at ✽.And Select new packs(eShop.feature:28)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mEnters postal code, floor No and unit No for New customer&amp#27;[0m          &amp#27;[90m# TC03.enters_postal_code_floor_No_and_unit_No_for_New_customer()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mCheck fibre availbility for new customer&amp#27;[0m                            &amp#27;[90m# TC03.check_fibre_availbility_for_new_customer()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mnew user is displayed with plan details and Total in shopping card&amp#27;[0m &amp#27;[90m# TC03.new_user_is_displayed_with_plan_details_and_Total_in_shopping_card()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 37753
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 01, 2021 12:58:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 17098
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 01, 2021 12:59:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 44247
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 01, 2021 12:59:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+    <listener class-name="stepDefinitions.Listeners" />
+	</listeners>
+
+
+	<test name="Validating TC01">
+	<classes>
+	<class name="stepDefinitions.TC01" />
+	</classes>
+	</test>
+
+	<test name="Validating TC02">
+	<classes>
+	<class name="stepDefinitions.TC02" />
+	</classes>
+	</test>
+	
+	<test name="Validating TC03">
+	<classes>
+	<class name="stepDefinitions.TC03" />
+	</classes>
+	</test> 
+	
+</suite> 
