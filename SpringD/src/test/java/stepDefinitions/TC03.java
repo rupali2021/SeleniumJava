@@ -18,6 +18,7 @@ import pageObjectFiles.InstallationAddress;
 import pageObjectFiles.NewPlanOrCustomer;
 import pageObjectFiles.PackUnderTv;
 import pageObjectFiles.ProductnServices;
+import pageObjectFiles.Utility;
 import resources.base;
 
 @RunWith(Cucumber.class)
@@ -25,7 +26,8 @@ public class TC03 extends base {
 	@Given("^Userc is at eshop Home page$")
 	public void userc_is_at_eshop_Home_page() throws Throwable {
 		driver = InitialiseDriver();
-		System.out.println("8");
+		System.out.println("Home Page");
+		Utility.takeScreenshot(driver, "HomePage2");
 	}
 
 	@When("^User looks for packs in TV menu$")
@@ -36,12 +38,14 @@ public class TC03 extends base {
 		ProductnServices pns = new ProductnServices(driver);         //import class instead of extending class
 		WebElement hover = pns.getProductnServices();
 		action.moveToElement(hover).build().perform();
+		Utility.takeScreenshot(driver, "Products");
 
 		/*................................. Broadband plans under BB ................................*/
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		PackUnderTv putv = new PackUnderTv(driver);
 		putv.getPackUnderTv().click();
-		System.out.println("9");
+		Utility.takeScreenshot(driver, "BBp");
+		System.out.println("Broadband plans under BB");
 	}
 
 	@When("^Select new packs$")
@@ -51,11 +55,13 @@ public class TC03 extends base {
 		ChoosePack cp_driver = new ChoosePack(driver);
 		cp_driver.getViewPacks().click();
 		cp_driver.getSelectPacks().click();
+		Utility.takeScreenshot(driver, "Viewpacks");
 		/*....................................Select new Customer  ..................................*/
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		NewPlanOrCustomer nfb = new NewPlanOrCustomer(driver);
 		nfb.getNewCustomer().click();
-		System.out.println("10");
+		System.out.println("New customer selected");
+		Utility.takeScreenshot(driver, "newcustomer");
 	}
 
 	@Then("^Enters postal code, floor No and unit No for New customer$")
@@ -76,9 +82,10 @@ public class TC03 extends base {
         WebElement selun = ad_driver.getUnitNo();
         Select dropdown5 = new Select(selun);
         dropdown5.selectByIndex(02);
+		Utility.takeScreenshot(driver, "customer2");
         //check fiber availability
         ad_driver.getCheckFibreAvai().click();
-		System.out.println("11");
+		System.out.println("Checking for fibre availability");
 	}
 
 	@Then("^Check fibre availbility for new customer$")
@@ -93,9 +100,10 @@ public class TC03 extends base {
         System.out.println(text1);
         String text2 = ch_driver.getTotalPrice().getText();
         System.out.println(" : /t" + text2);
+		Utility.takeScreenshot(driver, "fibre2");
         //checkout
         ch_driver.getCheckout().click();
-		System.out.println("12");
+		System.out.println("Checkout");
 	}
 
 	@Then("^new user is displayed with plan details and Total in shopping card$")

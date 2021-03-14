@@ -1,7 +1,7 @@
 Feature: Verify user is able to retrieve accessories after applying filters on Accessories page
 
 
-  @Sanity @Regression
+  @Regression @Sanity
   Scenario: Retrieval of accessories
     Given Usera is at eshop Home page
     When User looks for accessories in products & services menu
@@ -21,7 +21,7 @@ Feature: Verify user is able to retrieve accessories after applying filters on A
 
 
 
-  @Regression
+   @Regression
   Scenario: User can add TV plan in shopping cart and  do checkout
     Given Userc is at eshop Home page
     When User looks for packs in TV menu

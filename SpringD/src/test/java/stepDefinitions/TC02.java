@@ -19,16 +19,17 @@ import pageObjectFiles.InstallationAddress;
 import pageObjectFiles.NewNumber;
 import pageObjectFiles.NewPlanOrCustomer;
 import pageObjectFiles.ProductnServices;
+import pageObjectFiles.Utility;
 import resources.base;
 
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 public class TC02 extends base {
 	
 	@Given("^Userb is at eshop Home page$")
 	public void userb_is_at_eshop_Home_page() throws Throwable {
 		driver = InitialiseDriver();
-		System.out.println("1");
-
+		System.out.println("Usera is at eshop Home page");
+		Utility.takeScreenshot(driver, "HomePage1");
 	}
 
 	@When("^User looks for Broadband plan in Boardband menu$")
@@ -39,18 +40,23 @@ public class TC02 extends base {
 		ProductnServices pns = new ProductnServices(driver);         //import class instead of extending class
 		WebElement hover = pns.getProductnServices();
 		action.moveToElement(hover).build().perform();
+		Utility.takeScreenshot(driver, "Menu1");
 
 		/*................................. Broadband plans under BB ................................*/
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 		BroadbandPlansUnderBroadband bbub = new BroadbandPlansUnderBroadband(driver);
 		bbub.getBroadbandPlansUnderBroadband().click();
-		System.out.println("2");
+		
+		//Assert.assertEquals("Fibre Broadband Plans on Singtel's #1 Network", driver.getTitle());      // Assertions
+		System.out.println("User is at Broadband Plans page");
+		System.out.println(driver.getTitle());
 	}
 
 	@When("^Selects (\\d+) Gbps fibre plan$")
 	public void selects_Gbps_fibre_plan(int arg1) throws Throwable {
 		/*.................................... Choose Plan ......... ................................*/
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+		Utility.takeScreenshot(driver, "Chooseplan");
 		((JavascriptExecutor)driver).executeScript("scroll(0,1500)");
 		ChoosePlan cp_driver = new ChoosePlan(driver);
 		cp_driver.getChoosePlan().click();
@@ -59,30 +65,33 @@ public class TC02 extends base {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		NewPlanOrCustomer nfb = new NewPlanOrCustomer(driver);
 		nfb.getNewFibreBand().click();
-		System.out.println("3");
+		System.out.println("Fibre broanband selected");
+		Utility.takeScreenshot(driver, "fibreSelection");
 	}
 
 	@Then("^Enters postal code, floor No and unit No for New fibre Broadband Plan$")
 	public void enters_postal_code_floor_No_and_unit_No_for_New_fibre_Broadband_Plan() throws Throwable {
 		/*.................................  Enter Address details  .................................*/
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(400, TimeUnit.SECONDS);
 		((JavascriptExecutor)driver).executeScript("scroll(0,500)");
 		//enter postal code
 		InstallationAddress ad_driver = new InstallationAddress(driver);
-        ad_driver.getPostalCode().sendKeys("520420");
+        ad_driver.getPostalCode().sendKeys("529774");
         //retrieve postal code
         ad_driver.getRetrieve().click();
         //enter floor number
         WebElement selfn = ad_driver.getFloorNo();
+        System.out.println(".......flllooorr number......." + selfn);
         Select dropdown4 = new Select(selfn);
-        dropdown4.selectByIndex(01);        
+        dropdown4.selectByValue("02");	        
         //enter unit number
         WebElement selun = ad_driver.getUnitNo();
         Select dropdown5 = new Select(selun);
-        dropdown5.selectByIndex(02);
+        dropdown5.selectByValue("#02-01");
+		Utility.takeScreenshot(driver, "address1");
         //check fiber availability
         ad_driver.getCheckFibreAvai().click();
-		System.out.println("4");
+		System.out.println("Check Fibre availablility");
 	}
 
 	@Then("^Check fibre availbility for new plan$")
@@ -92,7 +101,8 @@ public class TC02 extends base {
 		driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
 		Continue con_driver = new Continue(driver);
         con_driver.getContinue().click();
-		System.out.println("5");
+		Utility.takeScreenshot(driver, "Continue1");
+		System.out.println("Click Continue");
 	}
 
 	@Then("^Enters new number for fibre plan$")
@@ -104,7 +114,8 @@ public class TC02 extends base {
         Continue con_driver = new Continue(driver);
         con_driver.getContinue().click();
         nno_driver.getProceedToCart().click();
-		System.out.println("6");
+		System.out.println("New number entered");
+		Utility.takeScreenshot(driver, "newnumber1");
 	}
 
 	@Then("^User is displayed with plan details and Total in shopping card$")

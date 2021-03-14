@@ -19,10 +19,9 @@ public class base
 	{
 		
 		//String homedir = System.getProperty("User.dir");      // Retrieve Working Directory          
-		//System.out.println("homedir" + homedir);
 		//FileInputStream fis = new FileInputStream(homedir + "//src//main//java//temp//data.properties");
-		FileInputStream fis = new FileInputStream("//Users//yuvensharma//eclipse-workspace//SpringD//src//main//java//temp//data.properties");
-
+		//FileInputStream fis = new FileInputStream("//Users//yuvensharma//eclipse-workspace//SpringD//src//main//java//temp//data.properties");
+		FileInputStream fis = new FileInputStream("//Users//yuvensharma//git//SeleniumJava1//SpringD//src//main//java//temp//data.properties");
 
 		                            // *** Get values from property file ***
 		Properties prop = new Properties();
